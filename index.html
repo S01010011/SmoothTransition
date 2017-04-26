@@ -1,58 +1,62 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8" />
-<title>页面平滑过渡</title>
-<link rel="stylesheet" href="css/style.css" />
-<script type="text/javascript" src="js/script.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--meta-->
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/style.css"  />
 </head>
 
 <body>
 
-<div id="main">
-	
-	<ul id="bot-menu" class="bot-menu">
-    	<li class="selected"><a href="#javascript:;">Serendipity</a></li>
-    	<li><a href="#javascript:;">Happiness</a></li>
-    	<li><a href="#javascript:;">Tranquillity</a></li>
-    	<li><a href="#javascript:;">Positivity</a></li>
-    	<li><a href="#javascript:;">Passion</a></li>
-    </ul>
-    
-    <div id="content" class="content">
-
-        <section>
-            <span data-icon="H"></span>
-            <h1 style="animation-name: toDown;">Serendipity</h1>
-            <p style="animation: toUp;">Banksy adipisicing eiusmod banh mi sed. Squid stumptown est odd future nisi, commodo mlkshk pop-up adipisicing retro.</p>
-        </section>
+<div class="main">
         
-        <section class="nth-color">
-        	<span data-icon="2"></span>
+    <input id="input-1" type="radio" name="radio-1" checked="checked" />
+    <a href="#content-1">Serendipity</a>
+    
+    <input id="input-2" type="radio" name="radio-1" />
+    <a href="#content-2">Happiness</a>	
+    
+    <input id="input-3" type="radio" name="radio-1" />
+    <a href="#content-3">Tranquillity</a>	
+    
+    <input id="input-4" type="radio" name="radio-1" />
+    <a href="#content-4">Positivity</a>	
+    
+    <input id="input-5" type="radio" name="radio-1" />
+    <a href="#content-5">Passion</a>
+
+    <div class="content">   
+        <section id="content-1">
+            <span data-icon="H"></span>
+            <h1>Serendipity</h1>
+            <p>Banksy adipisicing eiusmod banh mi sed. Squid stumptown est odd future nisi, commodo mlkshk pop-up adipisicing retro.</p>
+        </section>
+            
+        <section id="content-2" class="nth-color">
+            <span data-icon="2"></span>
             <h1>Happiness</h1>
             <p>Art party ready made beard labore cosby sweater culpa. Art party whatever incididunt, scenester umami polaroid tofu.</p>
-        </section>
+        </section>	
         
-        <section>
+        <section id="content-3">
             <span data-icon="B"></span>
             <h1>Tranquillity</h1>
             <p>Sint aute occaecat id vice. Post-ironic fap pork belly next level godard, id fanny pack williamsbrg forage truffaut.</p>
-        </section>
+        </section>	
         
-        <section class="nth-color">
+        <section id="content-4" class="nth-color">
             <span data-icon="x"></span>
             <h1>Positivity</h1>
             <p>Mixtape fap leggings art party, butcher authentic farm-to-table you probably haven't heard of them do labore cosby sweater.</p>
-        </section>
+        </section>	
         
-        <section>
+        <section id="content-5">
             <span data-icon="*"></span>
             <h1>Passion</h1>
             <p>Fixie ad odd future polaroid dreamcatcher, nesciunt carles bicycle rights accusamus mcsweeneyls mumblecore nulla irony.</p>
         </section>
-    
     </div>
-
 </div>
 
 </body>
