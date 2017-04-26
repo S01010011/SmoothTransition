@@ -1,5 +1,5 @@
 # SmoothTransition
-<samll>JS+CSS页面平滑过渡</samll>
+<samll>纯CSS页面平滑过渡</samll>
 
 # 测试环境：
 
